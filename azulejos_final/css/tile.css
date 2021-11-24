@@ -1,0 +1,44 @@
+
+div.tile {
+  position: absolute;
+  width: var(--tile-size);
+  height: var(--tile-size);
+  transition: .5s ease-out;
+}
+
+div.tile-content {
+  width: var(--tile-size);
+  height: var(--tile-size);
+  background-color: white;
+  transition: .2s ease-out;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* tous les enfants de "tite-content", càd les calques... */
+div.tile-content > .layer {
+  /* ...doivent se comporter comme des calques dans photoshop ou illustrator */
+  /* c'est à dire, qu'ils doivent faire la même taille que leur parent et se superposer les uns sur les autres. */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* display: none; */
+}
+
+body.cheat div.tile.duplicate > div.tile-content {
+  transform: rotate(-5deg);
+}
+div.tile.clicked > div.tile-content {
+  transform: rotate(10deg);
+  z-index: 1;
+  box-shadow: #0003 0 0 20px;
+}
+
+div.tile.played > div.tile-content {
+  cursor: unset;
+  filter: saturate(0) brightness(120%);
+  pointer-events: none;
+  transform: scale(90%);
+}

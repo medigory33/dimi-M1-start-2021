@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+.tile-content.type2 {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #eee;
+}
+
+.tile-content.type2 .corner {
+  position: absolute;
+  --size: 50px;
+  width: var(--size);
+  height: var(--size);
+  padding: 4px;
+  font-size: 48px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* debug: */
+  /* background-color: red; */
+}
+.tile-content.type2 .corner.tl {
+  transform: rotate(-135deg);
+}
+.tile-content.type2 .corner.tr {
+  transform: rotate(-45deg);
+  right: 0;
+}
+.tile-content.type2 .corner.br {
+  transform: rotate(45deg);
+  right: 0;
+  bottom: 0;
+}
+.tile-content.type2 .corner.bl {
+  transform: rotate(135deg);
+  bottom: 0;
+}
+
+.tile-content.type2 .middle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  --radius: 36px;
+
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 24px;
+  background-color: rgb(142, 214, 214);
+  padding: 8px;
+}
+.tile-content.type2 .middle.t {
+  transform: translate(-50%, -50%) translateY(calc(var(--radius) * -1));
+}
+.tile-content.type2 .middle.r {
+  transform: translate(-50%, -50%) translateX(calc(var(--radius) * 1)) rotate(90deg);
+}
+.tile-content.type2 .middle.b {
+  transform: translate(-50%, -50%) translateY(calc(var(--radius) * 1)) rotate(180deg);
+}
+.tile-content.type2 .middle.l {
+  transform: translate(-50%, -50%) translateX(calc(var(--radius) * -1)) rotate(-90deg);
+}
+
+
+

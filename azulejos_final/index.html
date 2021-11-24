@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azulejos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div id="library">
+
+    <div class="tile-content type1">
+      <div class="layer layer1"></div>
+      <div class="layer layer2"></div>
+      <div class="layer layer3"></div>
+    </div>
+
+    <div class="tile-content type2">
+      <div class="middle t">T</div>
+      <div class="middle r">T</div>
+      <div class="middle b">T</div>
+      <div class="middle l">T</div>
+
+      <div class="corner tl">K</div>
+      <div class="corner tr">K</div>
+      <div class="corner bl">K</div>
+      <div class="corner br">K</div>
+    </div>
+
+    <div class="tile-content type3"></div>
+
+  </div>
+
+  <main id="grid">
+<!-- 
+    voici à quoi doivent ressembler les divs produites en js :
+    <div class="tile">
+      <div class="content"></div>
+    </div>
+ -->
+  </main>
+
+  <footer>
+    <span>
+      seed: <input type="number">
+    </span>
+    <button id="freeze">freeze</button>
+    <button id="random">random</button>
+  </footer>
+
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>

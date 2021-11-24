@@ -8,3 +8,4 @@ canvas.width = width
 canvas.height = height
 
 setPixel(10, 10, 'red')
+import()

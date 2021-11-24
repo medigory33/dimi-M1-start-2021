@@ -1,0 +1,22 @@
+.tile-content.type1 {
+  background-color: #ccc;
+}
+
+.tile-content.type1 .layer1 {
+  background-color: black;
+  mask-image: url(../assets/star-8.svg);
+  -webkit-mask-image: url(../assets/star-8.svg);
+}
+
+.tile-content.type1 .layer2 {
+  background-color: #666;
+  mask-image: url(../assets/star-8-stroke.svg);
+  -webkit-mask-image: url(../assets/star-8-stroke.svg);
+}
+
+.tile-content.type1 .layer3 {
+  background-color: #999;
+  mask-image: url(../assets/4-squares.svg);
+  -webkit-mask-image: url(../assets/4-squares.svg);
+  transform: scale(.5);
+}

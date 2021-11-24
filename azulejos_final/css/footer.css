@@ -1,0 +1,20 @@
+footer {
+  padding: 16px;
+  font-size: 11px;
+}
+footer input,
+footer button {
+  appearance: none;
+  font-family: inherit;
+  font-size: inherit;
+  border: solid 1px white;
+  border-radius: 3px;
+  text-align: center;
+}
+footer input.freezed {
+  font-style: italic;
+  background-color: #fff6;
+}
+footer button.hidden {
+  display: none;
+}
