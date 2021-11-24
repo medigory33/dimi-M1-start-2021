@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
-<polygon points="647.1,507.5 749.4,405.2 647.1,302.9 647.1,158.1 502.3,158.1 400,55.8 297.7,158.1 152.9,158.1 152.9,302.9 
-	50.6,405.2 152.9,507.5 152.9,652.3 297.7,652.3 400,754.6 502.3,652.3 647.1,652.3 "/>
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+</style>
+<polygon points="400,400 553.4,128.2 246.6,128.2 "/>
+<polygon points="400,400 246.6,665.2 553.4,665.2 "/>
+<polygon points="400,400 122.3,246.6 122.3,553.4 "/>
+<polygon points="400,400 671.8,553.4 671.8,246.6 "/>
+<rect x="122.3" y="129.1" class="st0" width="549.5" height="536"/>
 </svg>
